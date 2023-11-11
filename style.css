@@ -5,7 +5,7 @@ body {
     margin: 0;
     min-height: 100vh;
     overflow: hidden;
-    background-color: #1F2937;
+    background-color: white;
 }
 
 a {
@@ -22,12 +22,20 @@ ul {
 
 .deck {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: white;
     flex-wrap: wrap;
 }
 
 .card {
+    gap: 8px;
+}
+
+.boxes-info {
+    width: 75px;
+}
+
+.box {
     border: 2px solid #3882F6;
     border-radius: 8px;
     padding: 16px;
@@ -89,7 +97,9 @@ button {
     color: #e5e7eb;
     border-radius: 4px;
     padding: 4px;
-    width: 10%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .sign-button {
@@ -111,6 +121,7 @@ button {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    padding: 60px;
 }
 
 .quote-author {
